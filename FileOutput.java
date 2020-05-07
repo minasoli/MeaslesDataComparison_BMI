@@ -14,12 +14,10 @@ public class FileOutput
 	      BufferedWriter bw = null;
 	      try {
 		 
-	     //Specify the file name and path here
+	     //output file name or path
 		 File file = new File("CommonDates.txt");
 
-		 /* This logic will make sure that the file 
-		  * gets created if it is not present at the
-		  * specified location*/
+		 // This will make sure that the file gets created if it is not present at the specified location
 		  if (!file.exists()) 
 		  {
 		     file.createNewFile();

@@ -40,7 +40,7 @@ public class BMI_Capstone
 	             		rhm.readFile();	             		
 	                    break;
 	                      
-	                 case 'b': //returns number of questions asked
+	                 case 'b': 
 	                	  rv.compareFiles();
 	                      break;
 	                 case 'q':
@@ -60,8 +60,6 @@ public class BMI_Capstone
 
 			
 	}//end main
-	
-	
 	
 	
 	
